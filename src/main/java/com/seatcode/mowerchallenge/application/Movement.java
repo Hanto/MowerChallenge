@@ -2,7 +2,7 @@ package com.seatcode.mowerchallenge.application;// Created by jhant on 18/11/202
 
 import com.seatcode.mowerchallenge.domain.Mower;
 
-public enum MowerMovementsRequest
+public enum Movement
 {
     L{
         @Override

@@ -1,7 +1,7 @@
 package com.seatcode.mowerchallenge.infrastructure;// Created by jhant on 18/11/2022.
 
-import com.seatcode.mowerchallenge.application.MowerMovementUseCase;
-import com.seatcode.mowerchallenge.application.MowerMovementUseCaseCommand;
+import com.seatcode.mowerchallenge.application.MowerUseCase;
+import com.seatcode.mowerchallenge.application.MowerCommand;
 
 public class Main
 {
@@ -18,9 +18,9 @@ public class Main
             "MMRMMRMRRM\n";
 
         MowerMovementUseCaseCommandMapper mapper = new MowerMovementUseCaseCommandMapper();
-        MowerMovementUseCase useCase = new MowerMovementUseCase();
+        MowerUseCase useCase = new MowerUseCase();
 
-        MowerMovementUseCaseCommand command = mapper.fromString(input);
+        MowerCommand command = mapper.fromString(input);
         useCase.executeMowerMovement(command);
     }
 }

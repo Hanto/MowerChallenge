@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Data @AllArgsConstructor @NoArgsConstructor @Builder
-public class MowerMovementUseCaseCommand
+public class MowerCommand
 {
     private Position plateau;
-    private List<MowerRequest>mowers;
+    private List<MowerInputs>mowers;
 
 }

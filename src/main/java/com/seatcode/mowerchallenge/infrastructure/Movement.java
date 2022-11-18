@@ -1,4 +1,4 @@
-package com.seatcode.mowerchallenge.application;// Created by jhant on 18/11/2022.
+package com.seatcode.mowerchallenge.infrastructure;// Created by jhant on 18/11/2022.
 
 import com.seatcode.mowerchallenge.domain.Mower;
 

@@ -17,7 +17,7 @@ public class Main
             "3 3 E\n" +
             "MMRMMRMRRM\n";
 
-        MowerMovementUseCaseCommandMapper mapper = new MowerMovementUseCaseCommandMapper();
+        MowerUseCaseMapper mapper = new MowerUseCaseMapper();
         MowerUseCase useCase = new MowerUseCase();
 
         MowerCommand command = mapper.fromString(input);

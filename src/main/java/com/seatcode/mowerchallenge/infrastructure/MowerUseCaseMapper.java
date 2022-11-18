@@ -1,8 +1,6 @@
 package com.seatcode.mowerchallenge.infrastructure;// Created by jhant on 18/11/2022.
 
-import com.seatcode.mowerchallenge.application.Direction;
 import com.seatcode.mowerchallenge.application.MowerCommand;
-import com.seatcode.mowerchallenge.application.Movement;
 import com.seatcode.mowerchallenge.application.MowerInputs;
 import com.seatcode.mowerchallenge.domain.Position;
 
@@ -13,7 +11,7 @@ import java.util.stream.Stream;
 
 import static java.lang.Integer.parseInt;
 
-public class MowerMovementUseCaseCommandMapper
+public class MowerUseCaseMapper
 {
     public MowerCommand fromString(String string)
     {

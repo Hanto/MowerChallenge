@@ -1,20 +1,16 @@
 package com.seatcode.mowerchallenge.infrastructure;
 
 import com.seatcode.mowerchallenge.application.MowerCommand;
-import com.seatcode.mowerchallenge.application.Movement;
-import com.seatcode.mowerchallenge.domain.Mower;
 import com.seatcode.mowerchallenge.domain.Position;
-import com.seatcode.mowerchallenge.domain.states.LookingEast;
-import com.seatcode.mowerchallenge.domain.states.LookingNorth;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.seatcode.mowerchallenge.application.Movement.*;
+import static com.seatcode.mowerchallenge.infrastructure.Movement.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class MowerCommandMapperTest
+class MowerUseCaseMapperTest
 {
     @Test
     public void deserialization()
@@ -25,7 +21,7 @@ class MowerCommandMapperTest
             "3 3 E\n" +
             "MMRMMRMRRM\n";
 
-        MowerMovementUseCaseCommandMapper mapper = new MowerMovementUseCaseCommandMapper();
+        MowerUseCaseMapper mapper = new MowerUseCaseMapper();
         MowerCommand command = mapper.fromString(input);
 
 

@@ -1,6 +1,8 @@
 package com.seatcode.mowerchallenge.application;// Created by jhant on 18/11/2022.
 
 import com.seatcode.mowerchallenge.domain.Position;
+import com.seatcode.mowerchallenge.infrastructure.Direction;
+import com.seatcode.mowerchallenge.infrastructure.Movement;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

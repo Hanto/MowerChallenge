@@ -1,6 +1,7 @@
 package com.seatcode.mowerchallenge.application;// Created by jhant on 18/11/2022.
 
 import com.seatcode.mowerchallenge.domain.Mower;
+import com.seatcode.mowerchallenge.infrastructure.Movement;
 
 import java.util.List;
 
